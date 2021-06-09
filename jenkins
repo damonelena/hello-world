@@ -1,0 +1,26 @@
+pipeline{
+  ageny any
+    stages{
+        stage('build'){
+          steps{
+          sh '''#!/bin/bash
+
+                    ls -ltr
+          }
+        }
+        stage('test'){
+          steps{
+          sh '''#!/bin/bash
+
+                    du -sh
+          }
+        }
+        stage('deploy'){
+          steps{
+          sh '''#!/bin/bash
+              df -hT
+                    
+          }
+        }
+    }
+}
