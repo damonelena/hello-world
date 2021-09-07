@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('ONE PLUS 7')
+  res.send('ONE PLUS 7T')
 })
 
 app.get('/status', (req, res) => {
