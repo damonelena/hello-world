@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('Power Rangers')
+  res.send('PRO KARMA')
 })
 
 app.get('/status', (req, res) => {
