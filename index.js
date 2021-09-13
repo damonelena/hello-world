@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('MARAM ANUSHA')
+  res.send('MARAM CHANDU')
 })
 
 app.get('/status', (req, res) => {
