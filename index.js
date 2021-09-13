@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('T-Mobile')
+  res.send('SUPER-6')
 })
 
 app.get('/status', (req, res) => {
